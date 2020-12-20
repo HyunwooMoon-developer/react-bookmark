@@ -67,7 +67,7 @@ class App extends React.Component{
                   showForm = {show =>this.setShowAddForm(show)}
                   handleAdd={bookmark=>this.addBookmark(bookmark)}
                 />
-                : <BookmarkApp bookmakrs={this.state.bookmarks} showForm={show=>this.setShowAddForm(show)}/>
+                : <BookmarkApp bookmarks={this.state.bookmarks} showForm={show=>this.setShowAddForm(show)}/>
 
     return (
       <div className="App">
